@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Warhammer 40k</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="content">
+        <p>Choose your legion</p>
+        <select id="legion">
+            <option>Space Marine</option>
+            <option>Space Wolf</option>
+            <option>Blood Angel</option>
+            <option>Black Shield</option>
+            <option>Salamander</option>
+        </select>
+        <p>Congratulation for going to hell any legion is hell anyway but welcome to <span id="band"></span></p>
+        <button id="start-btn" class="hidden">Start out operation</button>
+        </div>
+
+        <div class="game">
+            <p>Welcome to Hades your lucky your commander is the boss yarick but unfortunately for you this is your enemy, welcome the <span id="enemy"></span></p>
+            <img src="" alt="Your Captain"/>
+            <p id="captain-legion"></p>
+            <button id="btn-1">Attack</button>
+            <div id="attack-formation"></div>
+            <button id="btn-2">Defense</button>
+            <div id="defend-formation"></div>
+            <button id="btn-3">Retreat</button>
+            <div id="retreat-formation"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

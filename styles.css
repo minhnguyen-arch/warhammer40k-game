@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://th.bing.com/th/id/OIP.yi9l9O2znyTR39FOwiJTPwHaEK?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3")
+}
+
+.content {
+    width: 300px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+}
+
+.game {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    margin: auto;
+}
+
+.game button, .game div {
+    margin: 10px auto;
+}
